@@ -1,0 +1,189 @@
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color:#7B68EE;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgbaner{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+
+.divimg{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+h2{
+  color:#F0F8FF;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 25;
+  margin-top: 0;
+}
+
+label{
+  margin-right:115px;
+  margin-bottom:10px;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 25;
+  color:#7B68EE;
+}
+
+.boxloguin{
+  width: 80%;
+  height: 300px;
+  background-color:#F0F8FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.formloguin{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  
+}
+
+.inputloguin{
+  width: 80%;
+  padding: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius:10px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 2px #7B68EE;
+}
+
+
+.inputloguin:hover{
+  outline: none;
+  padding-left:20px;
+}
+
+.inputloguin::placeholder{
+  padding-left:15px;
+  color:#DCDCDC;
+  font-size: 15px;
+}
+
+.botao{
+  width: 130px;
+  height: 30px;
+  background-color:#7B68EE;
+  border: none;
+  outline: none;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color:#F0F8FF;
+  
+}
+
+.botao:hover{
+  opacity: 0.5;
+}
+
+a{
+  color:#7B68EE;
+  font-family: Verdana;
+  font-size: 10;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+
+
+.boxcadastro {
+  width: 80%;
+  height: 430px;
+  background-color:#F0F8FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  
+}
+
+
+.boxfechamento {
+  width: 80%;
+  height: 820px;
+  background-color:#F0F8FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-top: 30px;
+  text-align: center;
+  
+}
+
+.titulo{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sabado{
+  color:#7B68EE;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+.divchek{
+  display: flex;
+  margin-top: 0px;
+  padding: 0;
+}
+
+.chekbox{
+  margin-right: auto;
+  margin-top: 12px;
+  margin-left: 17px;
+ 
+}
+.chekboxsemanal{
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.divimgfechamento{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  margin-top: 75px;
+}

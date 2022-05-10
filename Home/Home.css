@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #F0F8FF;
+  font-family: Verdana,Sans-Serif;
+}
+
+.titulo {
+  margin-bottom: 32px;
+  font-size: 30px;
+  color: #7B68EE;
+}
+
+.headerindex {
+  width: 90%;
+  background-color:#F0F8FF;
+  padding: 8px;
+  display: flex;
+  border-radius: 8px;
+  
+  border-color: #7B68EE;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color:#F0F8FF;
+  text-decoration: none;
+  
+}
+.txtmenu{
+  color:#7B68EE;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 16px;
+
+}
+
+
+.navmenu {
+  
+  height: 100%;
+  width: 160px;
+  background-color: #7B68EE;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+.linkmenu{
+  display: block;
+  padding: 16px;
+  font-size: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 16px;
+  font-size: 20px;
+}
+
+nav a:hover{
+  background-color:#7B68EE;
+  color:#FFFAFA;
+}
+
+.avatar{
+  width: 30px;
+  right: 30px;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+} 
+  
+.main {
+  padding: 16px;
+  transition: margin-left 0.5s;
+  display: flex;
+  background-color: #0000;
+  border-radius: 8px;
+  
+}
+
+.divtxt{
+  width: 90%;
+  height: 400px;
+
+  background-color: #F0F8FF;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 15px #363636;
+  border-radius: 5px;;
+  
+}
+
+.txtrodape{
+  display: flex;
+  color:#7B68EE;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.boxhome{
+  border-radius: 8px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.boxhome2{
+  display: none;
+  border-radius: 8px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.txtlista{
+  margin-left: auto;
+  margin-right: auto;
+  color: #7B68EE;
+  border-collapse: separate; 
+  border-spacing: 8px;
+  border-width: 0.1px;
+  border-style:solid;
+  border-radius: 6px;
+  
+  padding:16px 16px 16px 16px;
+  
+}
+
+
+.boxloguin{
+  width: 97%;
+  background-color:#F0F8FF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+.boxloguin2{
+  animation: backInLeft;
+  animation-duration: 1s;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+h1 {
+  margin-top: 32px;
+  font-size: 24px;
+  color: #7B68EE;
+}
+
+p{
+  margin-top: 8px;
+}
+
+strong{
+  margin-top: 16px;
+  color: #7B68EE;
+
+}
+
+.inputloguin{
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+  padding-left: 26px;
+  font-size: 24px;
+  border-radius:10px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 2px #7B68EE;
+}
+
+
+.inputloguin:hover{
+  outline: none;
+  padding-left:20px;
+}
+
+.inputloguin::placeholder{
+  padding-left:15px;
+  color:#DCDCDC;
+  font-size: 24px;
+}
+
+
+.botao{
+  width: 160px;
+  height: 60px;
+  background-color:#7B68EE;
+  border: none;
+  outline: none;
+  margin-left: 16px;
+  text-align: center;
+  border-radius: 5px;
+  color:#F0F8FF;
+  box-shadow: 2px 2px 2px #7B68EE;
+
+  
+}
+
+
+
+.box_fechar{
+  width: 97%;
+  height: 30px;
+  background-color:#F0F8FF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 24px;
+
+}
+
+.botao_fechar{
+  display: none;
+  width: 60px;
+  background-color:#7B68EE;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  text-align: center;
+  border-radius: 5px;
+  color:#F0F8FF;
+  box-shadow: 2px 2px 2px #7B68EE;
+
+  
+}
+
+.botao_fechar:hover{
+  opacity: 0.5;
+}
+
+.botao:hover{
+  opacity: 0.5;
+}
+
+
+thead{
+  color: #7B68EE;
+
+}
+
+
+
+.linha {
+  display: none;
+  border-top-color: #7B68EE;
+  border: 0.5px;
+  border-style: solid;
+  margin-top: 50px;
+  opacity: 0.1;
+}
+
+
+.txtrodape{
+  display: flex;
+  color:#7B68EE;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 24px;
+  font-size: 18px;
+}
