@@ -25,7 +25,7 @@ function enviar(cpf,senha){
           var token = localStorage.getItem("token")
           alert("Usuario logado com sucesso !!")
           
-          window.open("./Home/Home.html", "self")
+          window.open("https://marciobob.github.io/frontEmprestimo/Home/Home.html", "self")
      
         }
       }
