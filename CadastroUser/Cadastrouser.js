@@ -12,7 +12,7 @@ function enviar(nome,fone,email,senha,cpf){
     "senha":senha,
   }
   
-  var url = "http://127.0.0.1:3000/cadastro"
+  var url = "http://143.244.179.118:5000/cadastro"
   var bory = JSON.stringify(body)
   
   fetch(url,{
