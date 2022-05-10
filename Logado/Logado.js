@@ -5,7 +5,7 @@ function logado(){
 
     if(localStorage.token){
 
-      window.open("./Home/Home.html")
+      window.open("https://marciobob.github.io/frontEmprestimo/Home/Home.html")
     }
   }
 }
