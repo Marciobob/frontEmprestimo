@@ -103,7 +103,7 @@ function enviar(cpf){
             
           }
    }else{
-     window.open("../Loguin/Loguin.html", "self")
+     window.open("https://marciobob.github.io/frontEmprestimo/Loguin/Loguin.html", "self")
 
    }
   
