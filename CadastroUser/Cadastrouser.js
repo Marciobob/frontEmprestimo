@@ -30,7 +30,7 @@ function enviar(nome,fone,email,senha,cpf){
 
             alert(" cadastrado com sucesso !!")
             
-            window.open("../Home/Home.html", "Self")
+            window.open("https://marciobob.github.io/frontEmprestimo/Home/Home.html", "Self")
           }
         }
         else{
