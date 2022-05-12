@@ -138,7 +138,7 @@ function pegacpf() {
     enviar(cpf)
     
   }else{
-    alert("Senha ou email invalidos!!")
+    alert("Documento invalido!!")
   }
 }
 

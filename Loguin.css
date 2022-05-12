@@ -4,14 +4,13 @@ body {
   margin: 0;
   padding: 0;
   background-color:#7B68EE;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .imgbaner{
   display: flex;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 .divimg{
@@ -22,7 +21,7 @@ body {
   
   align-items: center;
   justify-content: center;
-  margin-top: 25px;
+  margin-top: 8px;
 }
 
 h2{
@@ -43,8 +42,8 @@ label{
 }
 
 .boxloguin{
-  width: 80%;
-  height: 300px;
+  width: 60%;
+  height: 400px;
   background-color:#F0F8FF;
   border-radius: 10px;
   display: flex;
@@ -52,6 +51,12 @@ label{
   flex-direction: column;
   justify-content: center;
   text-align: left;
+  padding: 30px;
+}
+
+.p_loguin{
+  margin-right: 500px;
+  margin-top: 24px;
 }
 
 .formloguin{
@@ -66,7 +71,8 @@ label{
 }
 
 .inputloguin{
-  width: 80%;
+  width: 60%;
+  height: 50px;
   padding: 5px;
   display: flex;
   margin-left: auto;
@@ -76,6 +82,8 @@ label{
   outline: none;
   border: none;
   box-shadow: 2px 2px 2px #7B68EE;
+  font-size: 20px;
+
 }
 
 
@@ -87,7 +95,7 @@ label{
 .inputloguin::placeholder{
   padding-left:15px;
   color:#DCDCDC;
-  font-size: 15px;
+  margin-left: 8px;
 }
 
 .botao{

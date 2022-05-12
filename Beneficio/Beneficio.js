@@ -109,7 +109,7 @@ function enviar(cpf){
    }
   
    
-  var url = "http://127.0.0.1:3000/pesquisa_beneficio"
+  var url = "http://143.244.179.118:5000/pesquisa_beneficio"
   var bory = JSON.stringify(body)
   console.log("sou bary"+bory)
   
